@@ -40,7 +40,8 @@ Common issues:
 <p>Empty dashboard: Check server logs and userLogs.txt format</p>
 <p>CORS errors: Verify middleware setup in server.js</p>
 
-Configuration ⚙️
+<h1>Configuration ⚙️</h1>
+
 Port: 3001 (modify in treeServer.js)
 Log File: treebuilder-userlog.txt (auto-created)
 Endpoints:
@@ -49,7 +50,7 @@ GET /logs - JSON activity data
 POST /increment-tree - Record user activity
 
 
-Project Structure 📂
+<h1>**Project Structure 📂**</h1>
 
 ```bash
 ├── treeServer.js            # Main server logic

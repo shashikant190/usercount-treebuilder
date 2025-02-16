@@ -50,7 +50,7 @@ GET /logs - JSON activity data
 POST /increment-tree - Record user activity
 
 
-<h1>**Project Structure 📂**</h1>
+<h1>Project Structure 📂</h1>
 
 ```bash
 ├── treeServer.js            # Main server logic

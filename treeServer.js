@@ -58,7 +58,7 @@ setInterval(() => {
 
 // Routes
 app.get('/tree-dashboard', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'tree-builder-dashboard.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.get('/logs', (req, res) => {

@@ -20,7 +20,7 @@ A server-based analytics system for tracking user activity in the Tree Builder g
 2. **Clone Repository**
    ```bash
    git clone https://https://github.com/shashikant190/usercount-treebuilder.git
-   cd tree-builder-analytics
+   cd usercount-treebuilder
     ```
 3. Install dependencies:
 ```bash

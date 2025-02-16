@@ -39,3 +39,27 @@ Common issues:
 <p>Missing dependencies: Run npm install</p>
 <p>Empty dashboard: Check server logs and userLogs.txt format</p>
 <p>CORS errors: Verify middleware setup in server.js</p>
+
+Configuration ⚙️
+Port: 3001 (modify in treeServer.js)
+Log File: treebuilder-userlog.txt (auto-created)
+Endpoints:
+GET /tree-dashboard - Main dashboard UI
+GET /logs - JSON activity data
+POST /increment-tree - Record user activity
+
+
+Project Structure 📂
+
+```bash
+├── treeServer.js            # Main server logic
+├── public/
+│   ├── index.html           # Dashboard HTML
+│   └── tree-builder-dashboard.js # Client-side JS
+├── treebuilder-userlog.txt  # Activity logs (auto-generated)
+├── package.json             # Dependency management
+└── README.md                # This file
+```
+
+**Maintained by:** [Shashikant Maurya](https://github.com/shashikant190) & [Gaurav Suraywanshi](https://github.com/suryawanshigaurav40496)  
+**Report Issues:** [GitHub Issues](https://github.com/shashikant190/usercount-treebuilder/issues)
